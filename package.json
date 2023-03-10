@@ -1,0 +1,26 @@
+{
+  "name": "hlsvideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "hls-server": "^1.5.0",
+    "http": "^0.0.1-security",
+    "http-attach": "^1.0.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
